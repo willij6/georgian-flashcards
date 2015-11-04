@@ -80,7 +80,7 @@ class RandomRemoval
       ind = @indices[x]
       ind2 = @content.size - 1
       swap(ind,ind2)
-      pop
+      removeEnd
     end
   end
 
@@ -449,7 +449,7 @@ class WordDatabase
   def confused(card1,card2)
     p1 = card1.parent
     p2 = card2.parent
-    confusion[p1] and confusion[p1].include?[p2]
+    confusion[p1] and confusion[p1].include?(p2)
   end
 
   def flagSuccess(card, success)
