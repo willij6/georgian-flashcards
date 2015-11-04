@@ -1,0 +1,350 @@
+და=ა-არს-ებს
+establish
+მი=ა-ბ-ამს
+tie
+და=ა-ბ-ამს
+restrict
+და=ბად-ებს
+birth
+და=ბან-ს
+wash
+და=ი-ბან-ს
+bathe
+და=ბეჭდ-ავს
+print
+და=ა-ბნ-ევს
+confuse
+და=ა-ბნელ-ებს
+darken
+და=ა-ბრუნ-ებს
+return
+ბრძან-ებს
+command
+გა=ი-გ-ებს
+understand
+გადა=ა-გდ-ებს
+discard
+გა=გზავნ-ის
+send
+და=გრ-ეხს
+twist
+გა=ა-გრილ-ებს
+cool
+შე=ა-გროვ-ებს
+collect
+გა=ა-გრძელ-ებს
+continue
+და=ა-გრძელ-ებს
+lengthen
+და=დ-ებს
+put
+შე=ა-დარ-ებს
+compare
+და=დგ-ამს
+put down
+წარმო+ა-დგ-ენს
+present
+შე=ა-დგ-ენს
+compile
+გა=ა-დიდ-ებს
+make bigger
+და=ა-დნ-ობს
+melt
+ა=ა-დუღ-ებს
+boil
+და=ა-დგ-ენს
+fix, determine
+შე=ა-ერთ-ებს
+unite
+გა=ა-ერთიან-ებს
+unite
+და=ი-ვიწყ-ებს
+forget
+აღ=ზ(ა)რდ-ის
+raise
+გა=ზ(ა)რდ-ის
+grow
+გა=ა-თავ-ებს
+finish
+გადა=თარგმნ-ის
+translate
+გა=ა-თბ-ობს
+warm up
+და=თეს-ავს
+sow (seed)
+და=ა-თვალიერ-ებს
+observe
+ჩა=თვ(ა)ლ-ის
+consider
+და=თვ(ა)ლ-ის
+count
+გა=თ(ა)ლ-ის
+peel
+წარმო+თქვ-ამს
+pronounce
+ამო=თხ(ა)რ-ის
+dig
+მო=თხ(ა)რ-ის
+tear off
+და=ა-კაკუნ-ებს
+knock
+და=კარგ-ავს
+misplace
+გა=ა-კეთ-ებს
+do, make
+გადა+ა-კეთ-ებს
+remake, alter
+შე=ა-კეთ-ებს
+repair
+შე=კერ-ავს
+sew
+და=კეტ-ავს
+lock
+გამო=ი-კვლ-ევს
+investigate
+მო=კ(ა)ლ-ავს
+kill
+და=უ-კ(ა)რ-ავს
+play
+შე=კ(ა)რ-ავს
+fasten
+და=ა-ლაგ-ებს
+arrange
+გან=ა-ლაგ-ებს
+locate
+გა=ა-ლაგ-ებს
+locate
+და=მალ-ავს
+hide
+მართ-ავს
+govern
+გან=მარტ-ავს
+explain
+და=მარხ-ავს
+bury
+და=ა-მატ-ებს
+add
+და=ი-მახსოვრ-ებს
+memorize
+გა=ა-მდიდრ-ებს
+make rich
+გა=ი-მეორ-ებს
+repeat
+და=ა-მზად-ებს
+prepare
+მო=ა-მზად-ებს
+prepare
+გა=ა-მზად-ებს
+prepare
+და=ა-მთავრ-ებს
+finish, end
+შე=ა-მოკლ-ებს
+shorten
+შე=ა-მოწმ-ებს
+examine
+და=ა-მტკიც-ებს
+assert
+და=ა-მყარ-ებს
+establish
+შე=ა-მჩნ-ევს
+notice
+და=ა-მჩნ-ევს
+leave a mark
+ა-მჯობინ-ებს
+prefer
+და=ა-ნგრ-ევს
+ruin
+ა=ა-ნთ-ებს
+turn on
+აღ=ნიშნ-ავს
+mean
+აღ+ნიშნ-ავს
+mean
+ა=ა-ოხრ-ებს
+devastate
+მო=პარ-ავს
+steal
+და=პატარავ-ებს
+make smaller
+და=ა-პირ-ებს
+intend
+მო=უ-რ-ევს
+mix
+და=უ-რეკ-ავს
+call up
+გა=რეცხ-ავს
+wash
+გა=ა-რთ-ობს
+entertain
+და=ა-რღვ-ევს
+disobey
+შე=ა-რყ-ევს
+shake
+ა=ი-რჩ-ევს
+choose
+მო=ა-რჩ-ენს
+heal
+შე=ა-რხ-ევს
+shake, wave
+გან+საზღვრ-ავს
+define
+გა=სინჯ-ავს
+taste
+მო=ი-სმ-ენს
+listen
+ა-სწავლ-ის
+teach
+გა=ა-სწორ-ებს
+correct
+და=ა-სხ-ამს
+pour
+და=ს(ა)ჯ-ის
+punish
+გა=ა-ტარ-ებს
+drive
+შე=უ-ტ-ევს
+attack
+შე=ა-ტყ(ვ)-ობს
+notice, detect
+გა=ა-უმჯობეს-ებს
+improve
+და=ა-ფ-ენს
+lay, spread
+ჩა=ფ(ა)ლ-ავს
+bury
+გა=ა-ფუჭ-ებს
+spoil
+გა=ფცქვ(ე)ნ-ის
+peel
+ა-ქ-ებს
+praise
+შე=ა-ქ-ებს
+praise
+გამო=ა-ქვეყნ-ებს
+publish
+შე+ქმ(ე)ნ-ის
+create
+შე=ქმ(ე)ნ-ის
+create
+ჩა=ა-ქრ-ობს
+turn off
+გა=ა-ქრ-ობს
+disappear
+მი=ი-ღ-ებს
+receive, get
+გა=ა-ღ-ებს
+open
+ა=ი-ღ-ებს
+take
+წა=ი-ღ-ებს
+take away
+შე=ღებ-ავს
+paint, color
+გამო=ა-ღვიძ-ებს
+wake
+გა=ი-ღვიძ-ებს
+awake
+ჩამო=ა-ყალიბ-ებს
+form
+გა=ყინ-ავს
+freeze
+გადა=ყ(ა)რ-ის
+throw away
+უ-ყურ-ებს
+watch
+ა=ა-შენ-ებს
+build
+შე=ა-შინ-ებს
+frighten
+და=შ(ა)ლ-ის
+take apart, dissolve
+გა=შ(ა)ლ-ის
+unwrap
+წა=შ(ა)ლ-ის
+erase
+აღმო+ა-ჩ-ენს
+discover
+გა=ა-ჩერ-ებს
+stop
+ა-ჩვენ-ებს
+show
+გამო=ც(ა)დ-ის
+test
+ჩა=ი-ცვ-ამს
+get dressed
+შე=ცვ(ა)ლ-ის
+change
+გამო=ცვ(ა)ლ-ის
+exchange
+გა=ა-ცივ-ებს
+make cold
+გამო=ა-ცხად-ებს
+proclaim
+გა=ა-ცხელ-ებს
+heat
+გამო=ა-ცხ(ვ)-ობს
+bake
+გამო=ძერწ-ავს
+mold
+მი=უ-ძღვ(ე)ნ-ის
+dedicate
+ა=ს-წ-ევს
+lift
+აღ+წერ-ს
+describe
+გადა+წერ-ს
+copy
+და=წერ-ს
+write
+გა=წმ-ენდს
+clean
+და=ი-წყ-ებს
+begin
+მო=ა-წყ(ვ)-ობს
+arrange, furnish, settle
+გადა=წყვ-ეტს
+decide
+და=ა-ჭედ-ებს
+nail, pin, fix, secure
+და=ი-ჭ-ერს
+catch
+მო=ჭ(ე)რ-ის
+cut off
+და=ჭ(ე)რ-ის
+wound, cut (bread)
+გა=ჭ(ე)რ-ის
+cut
+და=ხაზ-ავს
+draw in graphic form
+მო=ხარშ-ავს
+cook by boiling
+და=ხარჯ-ავს
+spend
+და=ა-ხასიათ-ებს
+characterize
+და=ხატ-ავს
+paint
+გადა=ი-ხ(ა)დ-ის
+pay
+გა=ი-ხ(ა)დ-ის
+undress
+მო=ი-ხ(ა)დ-ის
+take off headgear
+და=ხ-ევს
+tear
+მო=ა-ხერხ-ებს
+deal with
+გან=ი-ხილ-ავს
+discuss
+გა=ი-ხსენ-ებს
+remember
+ა=ხს(ე)ნ-ის
+explain
+გა=ხს(ე)ნ-ის
+open (a container)
+და=ხურ-ავს
+close, shut
+და=ი-ხურ-ავს
+cover self
+და=ი-ჯერ-ებს
+believe
