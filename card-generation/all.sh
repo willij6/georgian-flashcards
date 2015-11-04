@@ -14,5 +14,5 @@ N
 N
 N
 s/\n/_/g' <t2.txt >t3.txt
-awk -f ka_verbs.awk <t3.txt >out.xml
+awk -f to_yml.awk <t3.txt >out.yml
 rm t.txt t2.txt t3.txt t0.txt te.txt tz.txt
