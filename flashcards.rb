@@ -2,7 +2,7 @@
 # coding: utf-8
 
 require 'psych'
-
+require 'set'
 
 class SkewNode
   attr_accessor :left, :right, :priority, :value
@@ -42,6 +42,10 @@ class CardQueue
       @root = merge(@root.left, @root.right)
     end
     holding
+  end
+
+  def empty?
+    not @root
   end
 
   def enroll(card,time)
@@ -230,6 +234,10 @@ class CardScheduler
         end
       end
     end
+  end
+
+  def empty?
+    return @queue.empty? && @pqueue.empty? && @current == nil
   end
 
   def chooseCard
@@ -423,6 +431,7 @@ class WordDatabase
       
   
   def initialize(filename)
+    @seenToday = Set.new
     @success = Hash.new
     data = Psych.load_file(filename)
     @words = data["words"]
@@ -448,6 +457,7 @@ class WordDatabase
   end
 
   def handleWord(word)
+    word.seen = true
     runningTotal = 0.0
     for card in word.cards
       unless @success[card]
@@ -468,12 +478,13 @@ class WordDatabase
       
   def wrapUpCalculations
     for word in words
-      next unless word.seen
+      next unless @seenToday.include?(word)
       handleWord word
     end
   end
 
   def flagSeen(card)
+    @seenToday.add(card.parent)
     card.parent.seen = true
   end
 
@@ -499,6 +510,20 @@ def main
   loop do
     csched.loadMore
     card = csched.chooseCard
+    if csched.empty?
+      loop do
+        puts "There are no more cards!"
+        if gets == "quit\n"
+          puts "ნახვამდის!"
+          wd.wrapUpCalculations
+          data = wd.pack
+          File.open('data.yml','w') do |file|
+            file.write(Psych.dump(data))
+          end
+          return
+        end
+      end
+    end
     if card
       wd.flagSeen(card)
       answered = false
