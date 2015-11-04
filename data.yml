@@ -1,0 +1,40 @@
+---
+words:
+- !ruby/object:Word
+  category: ka-nouns
+  cards:
+    en->ka: !ruby/object:Card
+      question: dog
+      answer: "ძაღლი"
+    ka->en: !ruby/object:Card
+      question: "ძაღლი"
+      answer: dog
+  seen: true
+  delay: 1
+  duedate: 16743
+- !ruby/object:Word
+  category: ka-nouns
+  cards:
+    en->ka: !ruby/object:Card
+      question: cat
+      answer: "კატა"
+    ka->en: !ruby/object:Card
+      question: "კატა"
+      answer: cat
+    gen: !ruby/object:Card
+      question: cat's
+      answer: "კატის"
+  seen: true
+  delay: 1
+  duedate: 16743
+- !ruby/object:Word
+  category: ka-adj
+  cards:
+    en->ka: !ruby/object:Card
+      question: red
+      answer: "წითელი"
+    ka->en: !ruby/object:Card
+      question: "წითელი"
+      answer: red
+  seen: false
+confusion: []
