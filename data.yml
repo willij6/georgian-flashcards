@@ -1,7 +1,25 @@
 ---
 words:
 - !ruby/object:Word
-  category: ka-nouns
+  category: ka-verb
+  cards:
+    ka->en: !ruby/object:Card
+      question: "დაწერა"
+      answer: to write
+    imperative: !ruby/object:Card
+      question: write!
+      answer: "დაწერე"
+    3aor: !ruby/object:Card
+      question: wrote
+      answer: "დაწერა"
+    3pres: !ruby/object:Card
+      question: writes
+      answer: "წერს"
+    masdar: !ruby/object:Card
+      question: to write
+      answer: "დაწერა"
+- !ruby/object:Word
+  category: ka-noun
   cards:
     en->ka: !ruby/object:Card
       question: dog
@@ -9,11 +27,8 @@ words:
     ka->en: !ruby/object:Card
       question: "ძაღლი"
       answer: dog
-  seen: true
-  delay: 1
-  duedate: 16743
 - !ruby/object:Word
-  category: ka-nouns
+  category: ka-noun
   cards:
     en->ka: !ruby/object:Card
       question: cat
@@ -24,11 +39,8 @@ words:
     gen: !ruby/object:Card
       question: cat's
       answer: "კატის"
-  seen: true
-  delay: 1
-  duedate: 16743
 - !ruby/object:Word
-  category: ka-adj
+  category: ka-adjective
   cards:
     en->ka: !ruby/object:Card
       question: red
@@ -36,5 +48,4 @@ words:
     ka->en: !ruby/object:Card
       question: "წითელი"
       answer: red
-  seen: false
 confusion: []
