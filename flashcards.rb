@@ -517,3 +517,6 @@ def main
     csched.advanceTime
   end
 end
+
+
+main
