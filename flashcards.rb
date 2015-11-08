@@ -473,6 +473,7 @@ def main
     if csched.empty?
       loop do
         puts "There are no more cards!"
+        print ">> "
         if gets == "quit\n"
           puts "ნახვამდის!"
           wd.wrapUpCalculations
@@ -489,6 +490,7 @@ def main
       answered = false
       until answered
         puts card.question + "?"
+        print ">> "
         a = gets
         a = a[0...(a.length-1)] # remove trailing newline?!
         if a == "quit"
@@ -508,7 +510,6 @@ def main
         else
           puts "Sorry, wrong answer"
           puts "Right answer was " + card.answer
-          puts "Yet you typed " + a + ", or whatever"
           csched.stowCard(0.0)
           answered = true
         end
