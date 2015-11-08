@@ -1,6 +1,6 @@
 #!/bin/sh
 # for now, get rid of third side info
-sed 's/ (.*)//g' <temp_1_verbs.txt >t0.txt
+sed 's/ (.*)//g' <verbs.txt >t0.txt
 # get rid of spaces after commas
 sed 's/, /,/g' <t0.txt >te.txt
 sed '
