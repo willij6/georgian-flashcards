@@ -44,8 +44,8 @@ A sample interaction looks like
     ნახვამდის!
 
 The program expects some data on cards to be stored in a file called
-```data.yml```.  For an example format of this file, see
-```backup_data.yml```.
+```data.yml```.  For an example format of this file,
+see ```backup_data.yml```.
 
 ### The algorithm
 
