@@ -2,17 +2,17 @@
 # coding: utf-8
 
 
-# run this, to remember what YAML looks like
+# Run this, to remember what YAML looks like.
+# 
+# This file creates some Card and Word objects,
+# links them up properly, and then converts them
+# to properly formatted YAML using Psych.
+#
+# This shows me exactly what format the other
+# scripts in this folder should target.
 
 require 'psych'
-
-class Card
-  attr_accessor :question, :answer, :parent, :type
-end
-
-class Word
-  attr_accessor :category, :cards, :delay, :duedate, :seen
-end
+require_relative '../deck_manager.rb' # defines Card and Word classes
 
 c1 = Card.new
 c1.question = "dog"
@@ -23,6 +23,10 @@ c2.answer = "dog"
 dog = Word.new
 dog.category = "ka-nouns"
 dog.cards = {"en->ka" => c1, "ka->en" => c2}
+# recall that when WordDatabase stores things as YAML,
+# it first converts them to the more compact layout above,
+# with @cards being a hash map, no @type field set in the cards,
+# and no links from cards to their parents (the associated words)
 
 c1 = Card.new
 c1.question = "cat"
