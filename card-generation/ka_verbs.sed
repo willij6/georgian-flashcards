@@ -223,7 +223,8 @@ s_(ა)\(.*-ი\)$_ა\1_ # change (ა) to ა if the string ends with -ი.
 # handle pretend "PSF"s like ევ, ეტ, ...
 s/-ევ$/ი-/ 	 	# so ა=ი-რჩ-ევ -> ა=ი-რჩი-
 # any PSF like ეC, except ებ, gets the ე changed to ი and added to stem
-s_-ე\([^ბ]\)$_ი\1-_ 	# so და=ი-ჭ-ერ -> და=ი-ჭირ-
+s_-ე\([^ბ]*\)$_ი\1-_ 	# so და=ი-ჭ-ერ -> და=ი-ჭირ-
+                        # & გა=-წმ-ენდს -> გა=-წმინდ-ს
 
 h # save what we have so far back in the hold buffer
 
