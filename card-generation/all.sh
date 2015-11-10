@@ -107,24 +107,24 @@
 
 # და=ჭ(ე)რ-ის
 # wound, cut (bread)
-sed 's/ (.*)//g' <verbs.txt >t0.txt # remove parentheses
+sed 's/ (.*)//g' <verbs.txt >temp1.txt # remove parentheses
 # და=ჭ(ე)რ-ის
 # wound, cut
-sed 's/, /,/g' <t0.txt >te.txt # remove spaces after commas
+sed 's/, /,/g' <temp1.txt >temp2.txt # remove spaces after commas
 # და=ჭ(ე)რ-ის
 # wound,cut
 sed '
 N
-s/\n/,/' <te.txt >t.txt # group pairs of lines into single lines
+s/\n/,/' <temp2.txt >temp3.txt # group pairs of lines into single lines
 # და=ჭ(ე)რ-ის,wound,cut
-awk -f distributor.awk <t.txt >tz.txt
+awk -f distributor.awk <temp3.txt >temp4.txt
 # და=ჭ(ე)რ-ის,wound
 # და=ჭ(ე)რ-ის,cut
 
 # # now let's forget about cut
 
 # და=ჭ(ე)რ-ის,wound
-sed -nf ka_verbs.sed <tz.txt >t2.txt # conjugate the verbs
+sed -nf ka_verbs.sed <temp4.txt >temp5.txt # conjugate the verbs
 # wound
 # ჭრის
 # დაჭრა
@@ -135,9 +135,9 @@ N
 N
 N
 N
-s/\n/_/g' <t2.txt >t3.txt # group the lines by 5, separating by an underscore
+s/\n/_/g' <temp5.txt >temp6.txt # group the lines by 5, separating by an underscore
 # wound_ჭრის_დაჭრა_დაჭერი_დაჭრა
-awk -f to_yml.awk <t3.txt >out.yml # convert to YAML.  To get xml, use to_xml.awk
+awk -f to_yml.awk <temp6.txt >out.yml # convert to YAML.  To get xml, use to_xml.awk
 # - !ruby/object:Word
 #   category: ka-verb
 #   cards:
@@ -158,5 +158,5 @@ awk -f to_yml.awk <t3.txt >out.yml # convert to YAML.  To get xml, use to_xml.aw
 #       answer: "დაჭრა"
 
 # # Finally, clean everything up
-rm t.txt t2.txt t3.txt t0.txt te.txt tz.txt
+rm temp?.txt
 
